@@ -1,5 +1,6 @@
 # MdDTI
 MdDTI: Multi-dimensional drug-target interaction prediction by preserving the consistency of attention distribution.
+![](images/MdDTI.png)
 
 ## Dependencies
 Environments:
