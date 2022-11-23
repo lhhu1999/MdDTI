@@ -8,13 +8,13 @@ Environments:
 * GPU: NVIDIA RTX 3090 Ti and NVIDIA Quadro P4000 (for KIBA dataset).
 
 Dependencies:
-* python 3.8
-* pytorch >=1.2
+* python = 3.8
+* pytorch >= 1.2
 * numpy
 * sklearn
 * tqdm
 * rdkit
-* subword-nmt 0.3.8
+* subword-nmt = 0.3.8
 
 ## Resources
 * RawData:
