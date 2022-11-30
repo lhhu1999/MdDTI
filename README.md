@@ -49,14 +49,6 @@ Dependencies:
         (Note: There is a parameter 'methods_components' in train_interaction.py. 
             if methods_components == 'icmf': the model is MdDTI-ICMF.
             else: the model is MdDTI-BPE.)
-    for KIBA and Davis datasets:
-        - step 1: Unzip the file “RawData/interaction/KIBA/*.zip”.
-        - step 2: run handle_interaction/extract_smiles_and_sdf.py
-        - step 3: run handle_interaction/extract_drug_adjacency.py
-        - step 4: run handle_interaction/extract_atomic_coordinate.py
-        - step 5: run handle_interaction/encode.py: Drug and target encoding representation. (Note: Run once for each dataset.)
-        - step 6: run handle_interaction/extract_icmf.py: Decompose drugs by ICMF method. (Note: Run once for each dataset.)
-        - step 7: run train_Davis_KIBA.py
     for Kd and EC50 datasets:
         - step 1: run handle_affinity/extract_smiles_and_sdf.py
         - step 2: run handle_affinity/extract_drug_adjacency.py
@@ -65,9 +57,7 @@ Dependencies:
         - step 5: run handle_affinity/extract_icmf.py: Decompose drugs by ICMF method. (Note: Run once for each dataset.)
         - step 6: run train_affinity.py
     for dude(1:1), dude(1:3) and dude(1:5) datasets:
-        - step 1: run handle_dude/extract_smiles_and_sdf.py
-        - step 2: run handle_dude/extract_drug_adjacency.py
-        - step 3: run handle_dude/extract_atomic_coordinate.py
-        - step 4: run handle_dude/encode.py: Drug and target encoding representation. (Note: Run once for each dataset.)
-        - step 5: run handle_dude/extract_icmf.py: Decompose drugs by ICMF method. (Note: Run once for each dataset.)
-        - step 6: run train_unbalanced_datasets.py
+        - Reference Kd and EC50.
+    for KIBA and Davis datasets:
+        - step 1: Unzip the file “RawData/interaction/KIBA/*.zip”.
+        - Reference Kd and EC50.
