@@ -26,3 +26,5 @@ $\qquad$ **Step 1:** case_study/06_1_encode.py
 $\qquad$ **Step 2:** 06_2_train_Ki_case_study.py  
 $\qquad$ **Step 3:** 06_3_train_Kd_case_study.py  
 $\qquad$ **Step 4:** 06_4_test_case_study.py
+
+For case_study/DTI.txt: The first 86 entries in the DTI.txt file constitute a case study dataset consisting of known drugs (82 antiviral drugs, 1 antiparasitic drug and 3 unrelated drugs) and the target SARS-CoV2 3C-like Protease.
