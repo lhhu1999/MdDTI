@@ -22,7 +22,7 @@ $\qquad$ **Step 3:** 05_3_train_Kd_EC50.py
 $\qquad$ **Step 4:** 05_4_train_Ki.py 
 
 ### 3. Case study
-$\qquad$ **Step 1:** 06_1_encode.py  
+$\qquad$ **Step 1:** case_study/06_1_encode.py  
 $\qquad$ **Step 2:** 06_2_train_Ki_case_study.py  
 $\qquad$ **Step 3:** 06_3_train_Kd_case_study.py  
 $\qquad$ **Step 4:** 06_4_test_case_study.py
