@@ -3,7 +3,9 @@
 Note that the input SMILES is unified using RDKit (by converting SMILES to a mol object using RDKit, and then converting the mol object back to unified SMILES).
 
 ```python
-smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
+smiles = 'C1=COC(=C1)C(=O)C(=O)O'
+smiles_new = Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
+print(smiles_new)   # O=C(O)C(=O)c1ccco1
 ```
 
 ### 1. Preprocessing
