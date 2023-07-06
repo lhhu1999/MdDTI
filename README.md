@@ -27,4 +27,4 @@ $\qquad$ **Step 2:** 06_2_train_Ki_case_study.py
 $\qquad$ **Step 3:** 06_3_train_Kd_case_study.py  
 $\qquad$ **Step 4:** 06_4_test_case_study.py
 
-For case_study/DTI.txt: The first 86 entries in the DTI.txt file constitute a case study dataset consisting of known drugs (82 antiviral drugs, 1 antiparasitic drug and 3 unrelated drugs) and the target SARS-CoV2 3C-like Protease.
+$\qquad$ For case_study/DTI.txt: The first 86 entries in the DTI.txt file constitute a case study dataset consisting of known drugs (82 antiviral drugs, 1 antiparasitic drug and 3 unrelated drugs) and the SARS-CoV2 3C-like Protease target. The remaining 10 entries in the dataset consist of interactions between 2-Nonyl-4-quinolinol 1-oxide (QNO, Drugbank ID: DB08453) and human Cytochrome b-c1 complex subunit 10 (Uniprot ID: O14957) to complete the full batch of data.
