@@ -2,7 +2,7 @@
 
 Note that the input SMILES is unified using RDKit (by converting SMILES to a mol object using RDKit, and then converting the mol object back to unified SMILES).
 
-'''
+''' python
 smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
 '''
 
