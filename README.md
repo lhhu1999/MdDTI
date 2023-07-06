@@ -2,9 +2,9 @@
 
 Note that the input SMILES is unified using RDKit (by converting SMILES to a mol object using RDKit, and then converting the mol object back to unified SMILES).
 
-''' python
+```python
 smiles = Chem.MolToSmiles(Chem.MolFromSmiles(smiles))
-'''
+```
 
 ### 1. Preprocessing
 $\qquad$ **Step 1:** 00_extract_all_smiles.py  
