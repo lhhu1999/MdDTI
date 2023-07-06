@@ -1,6 +1,6 @@
 # MdDTI
 
-Note that the input SMILES is unified using RDKit (by converting SMILES to a mol object using RDKit, and then converting the mol object back to unified SMILES).
+Note that the input SMILES is unified using RDKit (by converting SMILES to a mol object using RDKit, and then converting the mol object back to unified SMILES). Make sure to use the same version of RDKit for both training and testing to avoid potential errors.
 
 ```python
 smiles = 'C1=COC(=C1)C(=O)C(=O)O'
