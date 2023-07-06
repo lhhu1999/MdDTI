@@ -7,7 +7,7 @@
 \qquad **Step 5:** 04_encode_target.py
 
 ### Train
-\qquad **Step 1:** 05_1_train_Human_Celegans.py
+$\qquad$ **Step 1:** 05_1_train_Human_Celegans.py
 \qquad **Step 2:** 05_2_train_Davis_KIBA.py
 \qquad **Step 3:** 05_3_train_Kd_EC50.py
 \qquad **Step 4:** 05_4_train_Ki.py
