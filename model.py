@@ -268,10 +268,10 @@ class MdDTI(nn.Module):
         # consistency loss
         loss2 = self.consistency_loss(substructures_att, skeletons_att)
 
-        x = skeletons_att[-1][:56].clone()
+        # x = skeletons_att[-1][:56].clone()
         # y = substructures_att[-1][:56].clone()
         # print("atts")
-        print(list(np.array(x.cpu())))
+        # print(list(np.array(x.cpu())))
         # print(list(np.array(y.cpu())))
 
         return out, loss2
